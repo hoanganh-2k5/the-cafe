@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/cafe.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <!-- header -->
+        <div id="heading">
+            <div class="list-items">
+                <div class="list-item"><a href="#" class="heading-item">HOME</a></div>
+                <div class="list-item"><a href="#about" class="heading-item">ABOUT</a></div>
+                <div class="list-item"><a href="#menu" class="heading-item">MENU</a></div>
+                <div class="list-item"><a href="#located" class="heading-item">WHERE</a></div>
+            </div>
+        </div>
+        
+        <!-- cafe background -->
+        <div id="background-title">
+            <div class="background-name">
+                <span class="clw cafe-font">the<br>Cafe</span>
+            </div>
+
+            <div class="time-open">
+                <span class="clw">Open from 6am to 5pm</span>
+            </div>
+
+            <div class="cafe-address">
+                <span class="clw">15 Adr street, 5015</span>
+            </div>
+        </div>
+        
+        <!-- about -->
+        <div id="about" class="general-size">
+            <div class="general-div">
+                <h1 class="general-title">ABOUT THE CAFE</h1>
+            </div>
+            <p class="found-cafe mgtb">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="found-cafe mgtb">In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+            <div class="cafe-maxim">
+                <p class="maxim fs18">"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+                <p class="author-maxim fs18">Chef, Coffeeist and Owner: Liam Brown</p>
+            </div>
+            <img src="/assets/img/coffeeshop.jpg" alt="thecafe" class="cafe-img">
+            <p class="cafe-time fs18"><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+            <p class="cafe-address-2 fs18"><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+        </div>
+        
+        
+        <!-- menu -->
+        <div id="menu" class="general-size">
+            <div class="general-div">
+                <h1 class="general-title">THE MENU</h1>
+            </div>
+            <div class="cafe-menu">
+                <div class="cafe-option">
+                    <div class="cafe-eat option point-cafe-eat">Eat</div>
+                    <div class="cafe-drink option">Drink</div>
+                </div>
+                <div class="cafe-eat-option js-display-block">
+                    <h5 class="cafe-dishes fs18">Bread Basket</h5>
+                    <p class="dishes-description fs18">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                    <br>
+                    <h5 class="cafe-dishes fs18">Honey Almond Granola with Fruits</h5>
+                    <p class="dishes-description fs18">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                    <br>
+                    <h5 class="cafe-dishes fs18">Belgian Waffle</h5>
+                    <p class="dishes-description fs18">Vanilla flavored batter with malted flour 7.50</p>
+                    <br>
+                    <h5 class="cafe-dishes fs18">Scrambled eggs</h5>
+                    <p class="dishes-description fs18">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                    <br>
+                    <h5 class="cafe-dishes fs18">Blueberry Pancakes</h5>
+                    <p class="dishes-description fs18">With syrup, butter and lots of berries 8.50</p>
+                </div>
+
+                <div class="cafe-drink-option js-display-none">
+                    <h5 class="cafe-drinking fs18">Coffee</h5>
+                    <p class="drinking-description fs18">Regular coffee 2.50</p>
+                    <br>
+                    <h5 class="cafe-drinking fs18">Chocolato</h5>
+                    <p class="drinking-description fs18">Chocolate espresso with milk 4.50</p>
+                    <br>
+                    <h5 class="cafe-drinking fs18">Corretto</h5>
+                    <p class="drinking-description fs18">Whiskey and coffee 5.00</p>
+                    <br>
+                    <h5 class="cafe-drinking fs18">Iced tea</h5>
+                    <p class="drinking-description fs18">Hot tea, except not hot 3.00</p>
+                    <br>
+                    <h5 class="cafe-drinking fs18">Soda</h5>
+                    <p class="drinking-description fs18">Coke, Sprite, Fanta, etc. 2.50</p>
+                </div>
+            </div>
+            <img src="/assets/img/coffeehouse2.jpg" alt="thecafe" class="cafe-img">
+        </div>
+
+        <!-- located -->
+        <div id="located" class="general-size">
+            <div class="general-div">
+                <h1 class="general-title">WHERE TO FIND US</h1>
+            </div>
+            <p class="find-us fs18">Find us at some address at some place.</p>
+            <img src="/assets/img/map.jpg" alt="thecafe" class="cafe-img">
+            <p class="promise fs18"><span class="fyi fs18">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+            <p class="require fs18"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+            <!-- form -->
+            <div action="" class="order-table">
+                <p><input type="text" placeholder="Name" required class="name wtd mgt pd"></p>
+                <p><input type="text" placeholder="How many people" required class="people wtd mgt pd"></p>
+                <p><input type="datetime-local" placeholder="" required class="time wtd mgt pd"></p>
+                <p><input type="text" placeholder="Message \ Special requirements " class="requirements wtd mgt pd"></p>
+                <button class="send mgt pd">SEND MESSAGE</button>
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="cafe-footer">
+            <p class="me fs18">Clone by HoangAnh</p>
+            <p class="contact fs18">Contact me <a href="https://www.facebook.com/profile.php?id=100050364100418" class="contact-me fs18">https://www.facebook.com/Hoàng Anh Nguyen </a></p>
+        </footer>
+    </div>
+</body>
+<script src="/cafe.js"></script>
+</html>
